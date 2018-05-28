@@ -4,8 +4,17 @@
              xmlns:local="clr-namespace:proyectofinal"
              x:Class="proyectofinal.MainPage">
 
-	<Label Text="Welcome Willi ceron" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout
+        Orientation="Horizontal"
+        Padding="0"
+        BackgroundColor="Blue">
+
+        <Label
+            Text="Willian Ceron"
+            TextColor="Black">
+            
+        </Label>
+        
+    </StackLayout>
 
 </ContentPage>
