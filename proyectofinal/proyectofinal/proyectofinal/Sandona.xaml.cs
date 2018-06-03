@@ -3,21 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace proyectofinal
 {
-	public partial class MainPage : ContentPage
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class Sandona : ContentPage
 	{
-		public MainPage()
+		public Sandona ()
 		{
-            
-			InitializeComponent();
+			InitializeComponent ();
 		}
 
-        async public void IngresarHome(object sender, EventArgs e)
+        async private void RegresarHome(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Home());
         }
+
     }
 }

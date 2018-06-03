@@ -4,17 +4,20 @@
              xmlns:local="clr-namespace:proyectofinal"
              x:Class="proyectofinal.MainPage">
 
-    <StackLayout
-        Orientation="Horizontal"
-        Padding="0"
-        BackgroundColor="Blue">
+    <StackLayout 
+        Orientation="Vertical" 
+        Spacing="0" 
+        Padding="20, 40, 20, 20"
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
 
-        <Label
-            Text="Willian Ceron"
-            TextColor="Black">
-            
-        </Label>
-        
+        <Button
+            Text="Ingresar Home"
+            Margin="0, 20, 0, 20"
+            Clicked="IngresarHome"/>
+
+
     </StackLayout>
+    
 
 </ContentPage>

@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectofinal.Home">
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="OrangeRed">
+
+            <Image
+                Source="http://sanelias.org/wp-content/uploads/2018/05/Volcan-Galeras-1.jpg"
+                HorizontalOptions="FillAndExpand"
+                WidthRequest="300"
+                HeightRequest="150"/>
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                HorizontalOptions="CenterAndExpand">
+
+                <Label
+                    Text="Nariño"
+                    TextColor="White"
+                    VerticalTextAlignment="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"/>
+
+                <Label
+                    Text="GalerTurs"
+                    TextColor="White"
+                    VerticalTextAlignment="Start"
+                    VerticalOptions="FillAndExpand"/>
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="White">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="http://www.hotelelegans.com/wp-content/uploads/2017/09/santa-ana-provincia-de-manabic49b-360x240.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="SANDONA"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="7 de enero de 1867"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+            Text="Visitar "
+            Margin="0, 20, 0, 20"
+           Clicked="visitarSandona"/>
+
+                    
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://i.pinimg.com/originals/af/34/b1/af34b15c1b6a6b079a9ab2becedf6a18.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="BUESACO"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="19 de Abril de 1618"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                      Clicked="visitarBuesaco"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://pbs.twimg.com/media/CAE3QEzXIAA9Mul.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="LA CRUZ"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="3 de Mayo de 1740"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                    
+                    Clicked="visitarLacruz" />
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://media-cdn.tripadvisor.com/media/photo-s/0a/0a/d8/1b/santuario-de-las-lajas.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="LAS LAJAS"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="15 de Septiembre de 1754"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                    
+                    Clicked="visitarLaslajas" />
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://www2.sgc.gov.co/sgc/volcanes/VolcanCumbal/PublishingImages/Paginas/generalidades/22_CUMBAL%202007.JPG"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="CUMBAL"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="20 de Julio de 1924"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     
+                    Clicked="visitarCumbal"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://i.ytimg.com/vi/vvYSFGkGBIg/hqdefault.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="PASTO"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="19 de Agosto de 1537,"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     
+                    Clicked="visitarPasto"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://latinoamericaexuberante.org/wp-content/uploads/2017/05/14352517501_0bb5e7824c_o-1-800x500_c.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="EL ENCANO"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="humedal de importancia nacional/inter"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     
+                    Clicked="visitarElencano"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="http://www.hotelloscorales.com/images/blog/el-quesillo.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="TUMACO"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="30 de noviembre de 1640"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     
+                    Clicked="visitarTumaco"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </StackLayout>
+</ContentPage>

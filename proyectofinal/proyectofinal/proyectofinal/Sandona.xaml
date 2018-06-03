@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectofinal.Sandona">
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="OrangeRed">
+
+            <Image
+                Source="https://farm5.staticflickr.com/4166/34648665986_3d0c301709_b.jpg"
+                HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                HorizontalOptions="FillAndExpand">
+
+                <Label
+                    Text="SANDONA"
+                    TextColor="White"
+                    VerticalTextAlignment="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"/>
+
+                <Label
+                    Text="nariño"
+                    TextColor="White"
+                    VerticalTextAlignment="Start"
+                    VerticalOptions="FillAndExpand"/>
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="White">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://upload.wikimedia.org/wikipedia/commons/9/9b/Linea_H_%28Logo_Metro_Medellin%29.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="HISTORIA"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="7 de enero de 1867"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="Start"/>
+
+                    </StackLayout>
+
+                    <Button
+            Text="Visitar "
+            Margin="0, 20, 0, 20"
+           />
+
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                >
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="janfer.com/2219-home_default/senal-restaurante.jpg"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="GASTRONIMIA"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     />
+                    <!--Clicked="ComidaSandona"-->
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://cdn6.aptoide.com/imgs/9/0/b/90b8dfbb345c12002d2849a55cf51de1_icon.png?w=240"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="GALERIA DE FOTOS"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     
+                      />
+                <!--Clicked="GaleriaSandona-->
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://cdn.icon-icons.com/icons2/603/PNG/512/location_map_directions_geography_gps_icon-icons.com_55988.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="UBICACION"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        VerticalTextAlignment="End"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"/>
+
+                </StackLayout>
+
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarHome"/>
+
+    </StackLayout>
+</ContentPage>
