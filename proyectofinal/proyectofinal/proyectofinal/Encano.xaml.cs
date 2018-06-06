@@ -16,5 +16,30 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void HistoriaEncano(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HistoriaEncano());
+        }
+
+
+        async private void ComidasEncano(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComidaEncano());
+        }
+
+        async private void fotosEncano(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GaleriaEncano());
+        }
+
+
+
+
+
+        async private void RegresarHome(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+    }
 }

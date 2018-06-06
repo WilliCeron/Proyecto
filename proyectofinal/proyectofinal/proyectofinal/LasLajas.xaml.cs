@@ -16,5 +16,31 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+
+        async private void HistoriaLasLajas(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HistoriaLasLajas());
+        }
+
+
+        async private void ComidasLasLajas(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComidaLasLajas());
+        }
+
+        async private void fotosLasLajas(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GaleriaLasLajas());
+        }
+
+
+
+
+
+        async private void RegresarHome(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+    }
 }

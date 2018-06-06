@@ -16,5 +16,30 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void HistoriaTumaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HistoriaTumaco());
+        }
+
+
+        async private void ComidasTumaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComidaTumaco());
+        }
+
+        async private void fotosTumaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GaleriaTumaco());
+        }
+
+
+
+
+
+        async private void RegresarHome(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+    }
 }

@@ -16,5 +16,31 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+
+        async private void HistoriaLaCruz(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HistoriaLaCruz());
+        }
+
+
+        async private void ComidasLaCruz(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComidaLaCruz());
+        }
+
+        async private void fotosLaCruz(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GaleriaLaCruz());
+        }
+
+
+
+
+
+        async private void RegresarHome(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+    }
 }

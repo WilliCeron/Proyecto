@@ -16,5 +16,30 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void HistoriaBuesaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HistoriaBuesaco());
+        }
+
+
+        async private void ComidasBuesaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComidaBuesaco());
+        }
+
+        async private void fotosBuesaco(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new GaleriaBuesaco());
+        }
+
+
+
+
+
+        async private void RegresarHome(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Home());
+        }
+    }
 }

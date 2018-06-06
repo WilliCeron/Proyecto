@@ -2,11 +2,218 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectofinal.Pasto">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="3.bp.blogspot.com/-j6bujPcQMfg/ToW9mALIXXI/AAAAAAAAAZw/QGMMrg3K82s/s1600/2005-12-29_070211.jpg"
+                HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                HorizontalOptions="FillAndExpand">
+
+                <Label
+                    Text="PASTO"
+                    TextColor="White"
+                    VerticalTextAlignment="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"/>
+
+                <Label
+                    Text="Nariño"
+                    TextColor="White"
+                    VerticalTextAlignment="Start"
+                    VerticalOptions="FillAndExpand"/>
+
+
+
+
+            </StackLayout>
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="White">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="http://goldtravel.am/images/gobierno_icon.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="HISTORIA"
+                        TextColor="Black"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+                    <Button
+            Text="History "
+            Margin="0, 20, 0, 20"
+            Clicked="HistoriaPasto"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="https://static.miweb.padigital.es/var/m_c/ca/ca3/3293/57704-hotel-restaurante-belen-icono-3.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="GASTRONIMIA"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Comidas "
+                     Margin="0, 20, 0, 20"
+                     Clicked="ComidasPasto"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="http://itdist.edu-frn.spb.ru/pluginfile.php/4335/course/summary/72.painting.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="GALERIA DE FOTOS"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="fotos "
+                     Margin="0, 20, 0, 20"
+                     Clicked="fotosPasto"/>
+
+                </StackLayout>
+
+                <StackLayout
+                Orientation="Horizontal"
+                Spacing="0"
+                VerticalOptions="FillAndExpand"
+                Padding="10">
+
+                    <Image
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    HorizontalOptions="Start"
+                    Source="http://tecnotron.net/images/icono%20GPS.png"/>
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+                        <Label
+                        Text="UBICACION"
+                        TextColor="Black"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+                    <Button
+                     Text="Visitar "
+                     Margin="0, 20, 0, 20"
+                     />
+
+                </StackLayout>
+
+
+
+
+
+
+
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarHome"/>
+
+    </StackLayout>
 </ContentPage>

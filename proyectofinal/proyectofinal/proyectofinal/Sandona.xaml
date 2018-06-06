@@ -10,10 +10,10 @@
             Orientation="Horizontal"
             Spacing="0"
             HeightRequest="200"
-            BackgroundColor="OrangeRed">
+            BackgroundColor="Black">
 
             <Image
-                Source="https://farm5.staticflickr.com/4166/34648665986_3d0c301709_b.jpg"
+                Source="3.bp.blogspot.com/-j6bujPcQMfg/ToW9mALIXXI/AAAAAAAAAZw/QGMMrg3K82s/s1600/2005-12-29_070211.jpg"
                 HorizontalOptions="FillAndExpand"/>
 
             <StackLayout
@@ -64,7 +64,7 @@
                     WidthRequest="50"
                     HeightRequest="50"
                     HorizontalOptions="Start"
-                    Source="https://upload.wikimedia.org/wikipedia/commons/9/9b/Linea_H_%28Logo_Metro_Medellin%29.png"/>
+                    Source="http://goldtravel.am/images/gobierno_icon.png"/>
 
                     <StackLayout
                     Orientation="Vertical"
@@ -75,23 +75,18 @@
                         <Label
                         Text="HISTORIA"
                         TextColor="Black"
-                        VerticalOptions="FillAndExpand"
-                        VerticalTextAlignment="End"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
                         FontSize="16"/>
 
-                        <Label
-                        Text="7 de enero de 1867"
-                        TextColor="Black"
-                        VerticalOptions="FillAndExpand"
-                        VerticalTextAlignment="Start"/>
 
                     </StackLayout>
 
                     <Button
-            Text="Visitar "
+            Text="History "
             Margin="0, 20, 0, 20"
-           />
-
+            Clicked="HistoriaSandona"/>
 
                 </StackLayout>
 
@@ -99,13 +94,13 @@
                 Orientation="Horizontal"
                 Spacing="0"
                 VerticalOptions="FillAndExpand"
-                >
+                Padding="10">
 
                     <Image
                     WidthRequest="50"
                     HeightRequest="50"
                     HorizontalOptions="Start"
-                    Source="janfer.com/2219-home_default/senal-restaurante.jpg"/>
+                    Source="https://static.miweb.padigital.es/var/m_c/ca/ca3/3293/57704-hotel-restaurante-belen-icono-3.png"/>
 
                     <StackLayout
                     Orientation="Vertical"
@@ -117,7 +112,8 @@
                         Text="GASTRONIMIA"
                         TextColor="Black"
                         VerticalOptions="FillAndExpand"
-                        VerticalTextAlignment="End"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
                         FontSize="16"/>
 
 
@@ -125,10 +121,9 @@
                     </StackLayout>
 
                     <Button
-                     Text="Visitar "
+                     Text="Comidas "
                      Margin="0, 20, 0, 20"
-                     />
-                    <!--Clicked="ComidaSandona"-->
+                     Clicked="ComidasSandona"/>
 
                 </StackLayout>
 
@@ -142,7 +137,7 @@
                     WidthRequest="50"
                     HeightRequest="50"
                     HorizontalOptions="Start"
-                    Source="https://cdn6.aptoide.com/imgs/9/0/b/90b8dfbb345c12002d2849a55cf51de1_icon.png?w=240"/>
+                    Source="http://itdist.edu-frn.spb.ru/pluginfile.php/4335/course/summary/72.painting.png"/>
 
                     <StackLayout
                     Orientation="Vertical"
@@ -154,18 +149,18 @@
                         Text="GALERIA DE FOTOS"
                         TextColor="Black"
                         VerticalOptions="FillAndExpand"
-                        VerticalTextAlignment="End"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
                         FontSize="16"/>
 
 
                     </StackLayout>
 
                     <Button
-                     Text="Visitar "
+                     Text="fotos "
                      Margin="0, 20, 0, 20"
-                     
-                      />
-                <!--Clicked="GaleriaSandona-->
+                     Clicked="fotosSandona"/>
+
                 </StackLayout>
 
                 <StackLayout
@@ -178,7 +173,7 @@
                     WidthRequest="50"
                     HeightRequest="50"
                     HorizontalOptions="Start"
-                    Source="https://cdn.icon-icons.com/icons2/603/PNG/512/location_map_directions_geography_gps_icon-icons.com_55988.png"/>
+                    Source="http://tecnotron.net/images/icono%20GPS.png"/>
 
                     <StackLayout
                     Orientation="Vertical"
@@ -190,7 +185,8 @@
                         Text="UBICACION"
                         TextColor="Black"
                         VerticalOptions="FillAndExpand"
-                        VerticalTextAlignment="End"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
                         FontSize="16"/>
 
 
@@ -198,7 +194,8 @@
 
                     <Button
                      Text="Visitar "
-                     Margin="0, 20, 0, 20"/>
+                     Margin="0, 20, 0, 20"
+                     />
 
                 </StackLayout>
 

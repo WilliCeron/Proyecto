@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectofinal.GaleriaSandona">
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="3.bp.blogspot.com/-j6bujPcQMfg/ToW9mALIXXI/AAAAAAAAAZw/QGMMrg3K82s/s1600/2005-12-29_070211.jpg"
+                HorizontalOptions="FillAndExpand"/>
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                HorizontalOptions="FillAndExpand">
+
+                <Label
+                    Text="SANDONA"
+                    TextColor="White"
+                    VerticalTextAlignment="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"/>
+
+                <Label
+                    Text="nariño"
+                    TextColor="White"
+                    VerticalTextAlignment="Start"
+                    VerticalOptions="FillAndExpand"/>
+
+
+
+
+            </StackLayout>
+
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="proyectofinal.HistoriaCumbal">
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="https://encolombia.com/wp-content/uploads/2013/07/turismo-cumbal.jpg"
+                HorizontalOptions="FillAndExpand"/>
+
+
+
+        </StackLayout>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="Black">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="CUMBAL:"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Se dice que en 1529 el cacique Cumbe fundó un pueblo con el nombre de Pavas ubicado al pie del volcán Cumbal, entre el río Blanco y la quebrada Riochiquito.
+
+Sus habitantes pertenecían a la etnia de Los Pastos. En el año de 1547 fue cambiado su nombre por el de Cumbal en honor a su fundador, el cacique Cumbe. "
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="El Municipio de Cumbal se encuentra localizado a 120 km al suroccidente de la capital del Departamento.
+
+Límites:
+
+norte con Ricaurte y Mallama;
+sur con la República del Ecuador y Ricaurte;
+oriente con Guachucal y Cuaspud;
+occidente con la República del Ecuador y Ricaurte "
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarCumbal"/>
+
+    </StackLayout>
+</ContentPage>
