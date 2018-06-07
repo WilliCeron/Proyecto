@@ -16,5 +16,9 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+        async private void RegresarPasto(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Pasto());
+        }
+    }
 }

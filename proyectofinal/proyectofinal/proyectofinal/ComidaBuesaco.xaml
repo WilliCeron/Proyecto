@@ -2,11 +2,82 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectofinal.ComidaBuesaco">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="https://www.drupal.org/files/project-images/plato_tipico.png"
+                HorizontalOptions="FillAndExpand"/>
+
+
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="Black">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="PLATOS TIPICOS DE BUESACO:"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Los productos típicos de la gastronomía local en la que los alimentos tradicionales derivados del maíz, como los Choclos, los envueltos, la chicha y la mazamorra combinados con el frito, son los platos principales de el municipio de Buesaco Nariño"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarBuesaco"/>
+
+    </StackLayout>
 </ContentPage>

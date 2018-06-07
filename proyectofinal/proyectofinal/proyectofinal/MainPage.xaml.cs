@@ -15,9 +15,13 @@ namespace proyectofinal
 			InitializeComponent();
 		}
 
+
+
         async public void IngresarHome(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Home());
         }
+
+
     }
 }

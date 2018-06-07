@@ -2,11 +2,83 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectofinal.ComidaLasLajas">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="https://www.drupal.org/files/project-images/plato_tipico.png"
+                HorizontalOptions="FillAndExpand"/>
+
+
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="Black">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="PLATOS TIPICOS DE LAS LAJAS"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Indudablemente, uno de los platos típicos y representativos de la gastronomía nariñense es 
+                            el Cuy. Su nombre proviene del habla quechua, debido a los sonido que este emite (cuy, cuy). Sin embargo, en otros países se lo conoce como Conejillo de Indias
+                            Tortillas de papa, Lapingachos. Una gastronomía propia elaborada con productos propios de la tierra. Las tortillas de papa, uno de los platos mas deliciosos"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarLasLajas"/>
+
+    </StackLayout>
 </ContentPage>

@@ -49,7 +49,7 @@
 
 
                         <Label
-                        Text="PLATOS TIPICOS DE SANDONA:"
+                        Text="SANDONA:"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"

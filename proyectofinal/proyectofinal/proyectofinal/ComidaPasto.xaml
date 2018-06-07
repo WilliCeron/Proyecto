@@ -2,11 +2,83 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectofinal.ComidaPasto">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="https://www.drupal.org/files/project-images/plato_tipico.png"
+                HorizontalOptions="FillAndExpand"/>
+
+
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="Black">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="PLATOS TIPICOS DE PASTO"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Tamal Nariñense: Se elabora a base de masa de añejo nariñense envuelto en hoja achira amarrado con una pita.
+                            Champús: deliciosa bebida muy dulce que como la juanesca se preparaba en diferentes hogares pastusos en semana santa y Navidad se obsequiaba entre familiares y amistades. El éxodo de nariñenses a los departamentos del Valle y del Cauca a llevado a que de manera especial se incrementara su elaboración y consumo en la ciudad de Cali. Claro está que la receta original es de origen pastuso.
+                            Hornado: La practica del consumo del cerdo hornado viene de España y su elaboración y consumo se hizo mas fuerte en  la región andina de América, particularmente en Ecuador y fue precisamente este país, por razones histórico-geográficas, el que influyó en la preparación y consumo del cerdo, llamado simplemente hornado. Su elaboración en Pasto ya no es artesanal, contamos con medianas industrias de preparación que han permitido la conservación de tan deliciosa tradición."
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarPasto"/>
+
+    </StackLayout>
 </ContentPage>

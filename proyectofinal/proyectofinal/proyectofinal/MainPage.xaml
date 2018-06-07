@@ -2,19 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:proyectofinal"
-             x:Class="proyectofinal.MainPage">
+             x:Class="proyectofinal.MainPage"
+            >
 
     <StackLayout 
         Orientation="Vertical" 
         Spacing="0" 
         Padding="20, 40, 20, 20"
         HorizontalOptions="Center"
-        VerticalOptions="Center">
+        VerticalOptions="Center"
+        BackgroundColor="#AAC03F">
 
+        <Image
+                Source="http://www.congresovisible.org/media/uploads/grupos/LOGOTIPO_NARI%C3%91O_VISIBLE.jpg"
+                HorizontalOptions="FillAndExpand"
+                WidthRequest="400"
+                HeightRequest="200"/>
+
+
+        <StackLayout Orientation="Vertical">
+            <Label Text="Ingreso de usuarios" TextColor="Blue" FontSize="Large"/>
+            <Entry x:Name="entryUser" Placeholder="Usuario"/>
+            <Entry x:Name="entryPass" Placeholder="Constraseña" IsPassword="True"/>
+            <Button Text="Ingresar" Clicked="IngresarHome"/>
+        </StackLayout>
         <Button
-            Text="Ingresar Home"
+            Text="Registrar Usuario"
             Margin="0, 20, 0, 20"
-            Clicked="IngresarHome"/>
+            />
 
 
     </StackLayout>

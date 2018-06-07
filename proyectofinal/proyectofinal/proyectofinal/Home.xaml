@@ -10,7 +10,7 @@
             Orientation="Horizontal"
             Spacing="0"
             HeightRequest="200"
-            BackgroundColor="OrangeRed">
+            BackgroundColor="Black">
 
             <Image
                 Source="http://sanelias.org/wp-content/uploads/2018/05/Volcan-Galeras-1.jpg"
@@ -29,6 +29,7 @@
                 TextColor="White"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"
+                FontSize="Large"
                 />
 
         </StackLayout>

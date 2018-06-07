@@ -2,11 +2,84 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="proyectofinal.ComidaLaCruz">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <StackLayout
+        Orientation="Vertical"
+        Spacing="0">
+
+        <StackLayout
+            Orientation="Horizontal"
+            Spacing="0"
+            HeightRequest="200"
+            BackgroundColor="Black">
+
+            <Image
+                Source="https://www.drupal.org/files/project-images/plato_tipico.png"
+                HorizontalOptions="FillAndExpand"/>
+
+
+
         </StackLayout>
-    </ContentPage.Content>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
+
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="0"
+                Padding="10"
+                BackgroundColor="Black">
+
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
+                    VerticalOptions="FillAndExpand"
+                    Padding="10">
+
+
+
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="PLATOS TIPICOS DE LA CRUZ"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Poliada: de Choclo Considerada la mas exquisita sopa crema que se prepara en la región.
+                        Sopa de Mote: El mote es maíz remojado y preparado artesanalmente.
+                        Mazamorra: Como el sancocho, la mazamorra o simplemente morocho por la variedad del maíz que debe utilizarse, es un plato nacional.
+                        Envuelto de Choclo: Se acompaña con café."
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                    </StackLayout>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarLaCruz"/>
+
+    </StackLayout>
 </ContentPage>

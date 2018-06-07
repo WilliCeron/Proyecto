@@ -16,5 +16,10 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async private void RegresarLaCruz(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LaCruz());
+        }
+    }
 }

@@ -16,5 +16,9 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+        async private void RegresarCumbal(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Cumbal());
+        }
+    }
 }

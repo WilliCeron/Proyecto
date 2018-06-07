@@ -16,5 +16,9 @@ namespace proyectofinal
 		{
 			InitializeComponent ();
 		}
-	}
+        async private void RegresarEncano(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Encano());
+        }
+    }
 }
