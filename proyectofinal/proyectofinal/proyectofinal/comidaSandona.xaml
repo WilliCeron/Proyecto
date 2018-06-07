@@ -13,33 +13,73 @@
             BackgroundColor="Black">
 
             <Image
-                Source="3.bp.blogspot.com/-j6bujPcQMfg/ToW9mALIXXI/AAAAAAAAAZw/QGMMrg3K82s/s1600/2005-12-29_070211.jpg"
+                Source="https://upload.wikimedia.org/wikipedia/commons/7/7f/Sandon%C3%A1_-_Nari%C3%B1o_2888600484824800467_n.jpg"
                 HorizontalOptions="FillAndExpand"/>
+
+
+
+        </StackLayout>
+
+
+
+        <ScrollView
+            BackgroundColor="White"
+            VerticalOptions="FillAndExpand">
 
             <StackLayout
                 Orientation="Vertical"
                 Spacing="0"
-                HorizontalOptions="FillAndExpand">
+                Padding="10"
+                BackgroundColor="Black">
 
-                <Label
-                    Text="SANDONA"
-                    TextColor="White"
-                    VerticalTextAlignment="End"
+                <StackLayout   
+                    
+                    Orientation="Horizontal"
+                    Spacing="0"
                     VerticalOptions="FillAndExpand"
-                    FontSize="20"/>
-
-                <Label
-                    Text="nariño"
-                    TextColor="White"
-                    VerticalTextAlignment="Start"
-                    VerticalOptions="FillAndExpand"/>
+                    Padding="10">
 
 
 
+                    <StackLayout
+                    Orientation="Vertical"
+                    Spacing="0"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="15,10,0,0">
+
+
+                        <Label
+                        Text="SANDONA:"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+                        <Label
+                        Text="Es una población que se encuentra al suroccidente de Colombia en el departamento de Nariño. El Municipio de Sandoná, forma parte de la subregión centro del Departamento de Nariño, está al occidente de la ciudad de Pasto y en las faldas noroccidentales del Volcán Galeras.fue habitado por los Quillacingas o Killa-Singas, vocablo compuesto Kichwa: Killa significa Luna y Singa o Cinga igual Nariz.
+                            Algo importante en la economía de la zona son las artesanías tales como sombreros y accesorios creados con fibras naturales de una planta llamada iraca (Carludovica palmatta) también llamada paja toquilla "
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
+                        FontSize="16"/>
+
+
+                    </StackLayout>
+
+
+                </StackLayout>
 
             </StackLayout>
 
-        </StackLayout>
+        </ScrollView>
+
+        <Button
+                     Text="REGRESAR MENU "
+                     Margin="0, 20, 0, 20"
+                     Clicked="RegresarSandona"/>
+
     </StackLayout>
 
 

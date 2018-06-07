@@ -18,32 +18,20 @@
                 WidthRequest="300"
                 HeightRequest="150"/>
 
-            <StackLayout
-                Orientation="Vertical"
-                Spacing="0"
-                HorizontalOptions="CenterAndExpand">
-
-                <Label
-                    Text="Nariño"
-                    TextColor="White"
-                    VerticalTextAlignment="End"
-                    VerticalOptions="FillAndExpand"
-                    FontSize="20"/>
-
-                <Label
-                    Text="GalerTurs"
-                    TextColor="White"
-                    VerticalTextAlignment="Start"
-                    VerticalOptions="FillAndExpand"/>
-
-
-
-
-            </StackLayout>
+      
 
         </StackLayout>
 
+        <StackLayout Orientation="Vertical" BackgroundColor="Black">
 
+            <Label
+                Text="Nariño Tours"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                />
+
+        </StackLayout>
 
         <ScrollView
             BackgroundColor="White"
@@ -97,6 +85,10 @@
                     
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -136,6 +128,10 @@
                       Clicked="visitarBuesaco"/>
 
                 </StackLayout>
+
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
 
                 <StackLayout
                 Orientation="Horizontal"
@@ -178,6 +174,11 @@
 
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+                
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -218,6 +219,10 @@
                     Clicked="visitarLaslajas" />
 
                 </StackLayout>
+
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
 
                 <StackLayout
                 Orientation="Horizontal"
@@ -260,6 +265,10 @@
 
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -301,6 +310,10 @@
 
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -341,6 +354,10 @@
                     Clicked="visitarElencano"/>
 
                 </StackLayout>
+
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
 
                 <StackLayout
                 Orientation="Horizontal"

@@ -49,15 +49,17 @@
 
 
                         <Label
-                        Text="SANDONA:"
+                        Text="PLATOS TIPICOS DE SANDONA:"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
                         VerticalTextAlignment="Center"
                         FontSize="16"/>
+                        
+                        
 
                         <Label
-                        Text="es una población que se encuentra al suroccidente de Colombia en el departamento de Nariño. El Municipio de Sandoná, forma parte de la subregión centro del Departamento de Nariño, está al occidente de la ciudad de Pasto y en las faldas noroccidentales del Volcán Galeras.fue habitado por los Quillacingas o Killa-Singas, vocablo compuesto Kichwa: Killa significa Luna y Singa o Cinga igual Nariz.
+                        Text="Es una población que se encuentra al suroccidente de Colombia en el departamento de Nariño. El Municipio de Sandoná, forma parte de la subregión centro del Departamento de Nariño, está al occidente de la ciudad de Pasto y en las faldas noroccidentales del Volcán Galeras.fue habitado por los Quillacingas o Killa-Singas, vocablo compuesto Kichwa: Killa significa Luna y Singa o Cinga igual Nariz.
                             Algo importante en la economía de la zona son las artesanías tales como sombreros y accesorios creados con fibras naturales de una planta llamada iraca (Carludovica palmatta) también llamada paja toquilla "
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"

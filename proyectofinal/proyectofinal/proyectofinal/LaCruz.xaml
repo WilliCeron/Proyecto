@@ -90,6 +90,10 @@
 
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -127,6 +131,10 @@
 
                 </StackLayout>
 
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
+
                 <StackLayout
                 Orientation="Horizontal"
                 Spacing="0"
@@ -162,6 +170,10 @@
                      Clicked="fotosLaCruz"/>
 
                 </StackLayout>
+
+                <BoxView
+                    HeightRequest="1"
+                    Color="Black"/>
 
                 <StackLayout
                 Orientation="Horizontal"

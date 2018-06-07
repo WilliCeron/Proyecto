@@ -49,7 +49,7 @@
 
 
                         <Label
-                        Text="BUESACO:"
+                        Text="LA CRUZ:"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
@@ -57,7 +57,7 @@
                         FontSize="16"/>
 
                         <Label
-                        Text="Debe su nombre a los «buisacos», grupo étnico que formó parte de los quillasingas, que habitaban el territorio a la llegada de los conquistadores españoles, "
+                        Text="A la llegada de los conquistadores españoles en el territorio existía un poblado indígena llamado Chincha. Aunque tradicionalmente se ha considerado como fecha de fundación el 3 de mayo de 1740 a cargo de Hernán Pérez de Quezada el historiador Sergio Elias Ortiz esclareció que la fundación española se llevó a cabo en septiembre de 1535 a cargo de Pedro de Añasco y Juan de Ampudia lugartenientes de Sebastián de Belalcázar en territorio del pueblo aborigen de los Chinchanos por lo cual se dice que es la población más antigua del actual departamento de Nariño "
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
@@ -65,9 +65,7 @@
                         FontSize="16"/>
 
                         <Label
-                        Text="En el cañón del río Juanambú entre el 19 y el 29 de abril de 1814, se libró la difícil batalla de Juanambú en la cual el General Antonio Nariño venció al general realista Melchor Aymerich durante la Campaña del Sur (1813-1816) por la independencia, triunfo decisisvo para el éxito de la campaña libertadora Buesaco, es eminentemente agrícola, su principal producto es el café, además fríjol, arveja, trigo, cebada y otros cultivos en menor escala.
-
-En segundo lugar debido a su excelente clima, su variada gastronomia y los diferentes atractivos turisticos convierten a el turismo en la segunda generacion de ingresos "
+                        Text=" La extensión del municipio es de 237 kilómetros cuadrados y está situado sobre la vertiente nororiental del nudo de los Pastos y en la cordillera oriental, a 103 kilómetros al noreste de la ciudad de San Juan de Pasto. "
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"

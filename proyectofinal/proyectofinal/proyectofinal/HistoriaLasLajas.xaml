@@ -49,7 +49,7 @@
 
 
                         <Label
-                        Text="BUESACO:"
+                        Text="LAS LAJAS:"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
@@ -57,7 +57,7 @@
                         FontSize="16"/>
 
                         <Label
-                        Text="Debe su nombre a los «buisacos», grupo étnico que formó parte de los quillasingas, que habitaban el territorio a la llegada de los conquistadores españoles, "
+                        Text="El Santuario de Nuestra Señora del Rosario de las Lajas es un templo y basílica para el culto cristiano y veneración de Nuestra Señora de las Lajas el edificio principal mide 27.50 metros la altura hasta la torre es de 100 metros y el puente mide a 50 metros de alto por 17 metros de ancho y 20 de largo este santuario se ubica en Ipiales, Departamento de Nariño, sur de la República de Colombia y es destino de peregrinación y turismo desde el siglo XVIII. "
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
@@ -65,9 +65,9 @@
                         FontSize="16"/>
 
                         <Label
-                        Text="En el cañón del río Juanambú entre el 19 y el 29 de abril de 1814, se libró la difícil batalla de Juanambú en la cual el General Antonio Nariño venció al general realista Melchor Aymerich durante la Campaña del Sur (1813-1816) por la independencia, triunfo decisisvo para el éxito de la campaña libertadora Buesaco, es eminentemente agrícola, su principal producto es el café, además fríjol, arveja, trigo, cebada y otros cultivos en menor escala.
+                        Text="La edificación actual, construida al principio del siglo XX, sustituyó una capilla que databa del Siglo XVIII y es una iglesia de piedra gris y blanca de estilo Neogótico, a imitación del Gótico del siglo XIV, compuesta de tres naves construidas sobre un puente de dos arcos que cruza sobre el río y que hace de atrio o plaza de la basílica uniéndola con el otro lado del cañón.
 
-En segundo lugar debido a su excelente clima, su variada gastronomia y los diferentes atractivos turisticos convierten a el turismo en la segunda generacion de ingresos "
+La altura del templo, desde su base hasta la torre es de 100 metros, y el puente mide 50 metros de alto por 17 metros de ancho y 20 metros de largo. "
                         TextColor="White"
                         VerticalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
